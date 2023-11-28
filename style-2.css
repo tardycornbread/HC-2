@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+H1{
+    font-family: "degular-display", sans-serif;
+font-weight: 700;
+font-style: normal;
+    margin-left: 5vw;
+    color: black;
+
+    font-size: 200px;
+
+
+
+
+}
+
+
+
+
+.Dream {
+    position: relative;
+    border: 1px solid white;
+    height: 500px; /* Increased from 300px */
+    width: 500px; /* Increased from 300px */
+    margin: 10px;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Adjusts space between containers */
+    width: 100%;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.image-container {
+    position: relative;
+    border: 1px solid white;
+    height: 500px; /* Increased from 300px */
+    width: 50%; /* Increased from 300px */
+    margin: 10px;
+}
+
+.text-container {
+    font-family: degular, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 15vw;
+    width: 50%; /* Adjust as needed */
+    padding: 20px;
+    max-width: 100%; /* Prevents overflow */
+    overflow-wrap: break-word; 
+
+
+}
+    
